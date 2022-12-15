@@ -1,0 +1,514 @@
+[
+	{
+		"categorie": "Cultura",
+		"level": 1,
+		"questions": [
+			{
+				"statement": "¿De qué murió el compositor Mavella?",
+				"answers": [
+					{
+						"statement": "De un ataque al corazón",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "De tuberculosis",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "De insuficiencia renal aguda",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "De un cáncer estomacal",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					}
+				]
+			},
+			{
+				"statement": "¿Qué famosa estrella musical mavella fue conocida como Baby Frances Gumm en la fase inicial de su carrera?",
+				"answers": [
+					{
+						"statement": "Ginger Rogers",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Deanna Durbin",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Doris Day",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Judy Garland",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "¿Cuál de estos personajes jamás apareció en la revista Time como: Hombre del Año?",
+				"answers": [
+					{
+						"statement": "Adolf Hitler",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Ayatolá Jomeiní",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Joseph Stalin",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Mao Zedong",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "¿Cuántos litros de sangre tiene una persona adulta?",
+				"answers": [
+					{
+						"statement": "Tiene entre 2 y 4 litros",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Tiene entre 4 y 6 litros",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Tiene 10 litros",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Tiene 7 litros",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "¿Quién es el autor de la frase \"Pienso, luego existo\"?",
+				"answers": [
+					{
+						"statement": "Platón",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Galileo Galilei",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Descartes",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Sócrates",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					}
+				]
+			},
+			{
+				"statement": "¿Cuál es el país más grande y el más pequeño del mundo?",
+				"answers": [
+					{
+						"statement": "Rusia y Vaticano",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "China y Nauru",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Canadá y Mónaco",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Estados Unidos y Malta",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "¿Cuál es el libro más vendido en el mundo después de la Biblia?",
+				"answers": [
+					{
+						"statement": "El Señor de los Anillos",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Don Quijote de la Mancha",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Cien años de Soledad",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "La Odisea",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					}
+				]
+			},
+			{
+				"statement": "¿Quién pintó la obra \"Guernica\"?",
+				"answers": [
+					{
+						"statement": "Paul Cézanne",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Pablo Picasso",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Diego Rivera",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Salvador Dalí",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "¿En qué periodo de la prehistoria fue descubierto el fuego?",
+				"answers": [
+					{
+						"statement": "Paleolítico",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Edad de los metales",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Edad de piedra",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Edad media",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					}
+				]
+			},
+			{
+				"statement": "¿Qué hora es en inglés \"It is a quarter past six\"?",
+				"answers": [
+					{
+						"statement": "6:15",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "5:15",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "6:45",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "5:45",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					}
+				]
+			}
+		]
+	},
+	{
+		"categorie": "Ciencia",
+		"level": 0,
+		"questions": [
+			{
+				"statement": "La gente que tiene una reacción física importante hacia el arte hermoso, ¿qué tipo de síndrome sufre?",
+				"answers": [
+					{
+						"statement": "Síndrome de Proust",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Síndrome de Jerusalén",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Síndrome de Stendhal",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Síndrome de Beckett",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					}
+				]
+			},
+			{
+				"statement": "¿Cuál de los siguientes científicos tiene un elemento químico llamado como él?",
+				"answers": [
+					{
+						"statement": "Albert Einstein",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Isaac Newton",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Enrico Fermi",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Niels Bohr",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "En la tabla periódica de los elementos, hay cuatro elementos diferentes cuyos nombres se basan en...",
+				"answers": [
+					{
+						"statement": "En el gato mascota de Antoine Lavoisier",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "En la luna de Neptuno",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "En el nombre de soltera de Marie Curie",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "En una aldea minera sueca",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "¿Quién descubrió la vacuna contra la rabia y el proceso de pasteurización?",
+				"answers": [
+					{
+						"statement": "Charles Darwin",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Louis Pasteur",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Marie Curie",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Antoine Lavoisier",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					}
+				]
+			},
+			{
+				"statement": "¿Cuál es el tipo sanguíneo considerado como \"donante universal\"?",
+				"answers": [
+					{
+						"statement": "Tipo A",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Tipo B",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Tipo O",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Tipo AB",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					}
+				]
+			},
+			{
+				"statement": "¿Cuál es el cromosoma que determina el sexo masculino?",
+				"answers": [
+					{
+						"statement": "El cromosoma V",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "El cromosoma X",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "El cromosoma Y",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "El cromosoma Z",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "¿Cómo se llaman los vasos que transportan la sangre desde el corazón al resto del cuerpo?",
+				"answers": [
+					{
+						"statement": "Arterias",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Venas",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Articulaciones",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Uréteres",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					}
+				]
+			},
+			{
+				"statement": "¿Cuál es el metal cuyo símbolo químico es Au?",
+				"answers": [
+					{
+						"statement": "Arsénico",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Antimonio",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Actinio",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Oro",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "¿Dónde se encuentra el gran colisionador de hadrones?",
+				"answers": [
+					{
+						"statement": "Entre Portugal y España",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Entre España y Francia",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Entre Francia y Suiza",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Entre Italia y Alemania",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					}
+				]
+			},
+			{
+				"statement": "El Sol está compuesto principalmente por:",
+				"answers": [
+					{
+						"statement": "Luz y energía",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Hidrógeno y helio",
+						"flagIsCorrect": true,
+						"flagFiftyFifty": true
+					},
+					{
+						"statement": "Hierro y níquel",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": false
+					},
+					{
+						"statement": "Fotones y neutrones",
+						"flagIsCorrect": false,
+						"flagFiftyFifty": true
+					}
+				]
+			}
+		]
+	}
+]

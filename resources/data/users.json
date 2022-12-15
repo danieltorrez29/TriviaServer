@@ -1,0 +1,77 @@
+[
+	{
+		"email": "alejandro.aguirre@uptc.edu.co",
+		"username": "alejandroaguirre",
+		"password": "alejandro123",
+		"profilePicPath": "resources/images/koala.png",
+		"stats": {
+			"level": "Fácil",
+			"categorie": "Ciencia",
+			"correct": 3,
+			"incorrect": 2,
+			"score": 30,
+			"accuracy": 0.0,
+			"time": 0
+		}
+	},
+	{
+		"email": "alejandro.torres@uptc.edu.co",
+		"username": "alejandrotorres",
+		"password": "torres123",
+		"profilePicPath": "resources/images/fox.png",
+		"stats": {
+			"level": "",
+			"categorie": "",
+			"correct": 2,
+			"incorrect": 3,
+			"score": 20,
+			"accuracy": 0.0,
+			"time": 0
+		}
+	},
+	{
+		"email": "daniel.aguirre@uptc.edu.co",
+		"username": "danielaguirre",
+		"password": "aguirre123",
+		"profilePicPath": "resources/images/dinosaur.png",
+		"stats": {
+			"level": "Avanzado",
+			"categorie": "Cultura",
+			"correct": 1,
+			"incorrect": 4,
+			"score": 10,
+			"accuracy": 33.0,
+			"time": 6
+		}
+	},
+	{
+		"email": "daniel.torres@uptc.edu.co",
+		"username": "danieltorres",
+		"password": "daniel123",
+		"profilePicPath": "resources/images/toucan.png",
+		"stats": {
+			"level": "Avanzado",
+			"categorie": "Cultura",
+			"correct": 5,
+			"incorrect": 0,
+			"score": 50,
+			"accuracy": 100.0,
+			"time": 26
+		}
+	},
+	{
+		"email": "drake.torres@uptc.edu.co",
+		"username": "draketorres",
+		"password": "drake123",
+		"profilePicPath": "resources/images/chameleon.png",
+		"stats": {
+			"level": "Avanzado",
+			"categorie": "Cultura",
+			"correct": 4,
+			"incorrect": 2,
+			"score": 362,
+			"accuracy": 66.66666666666666,
+			"time": 38
+		}
+	}
+]
