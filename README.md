@@ -22,7 +22,7 @@ For the proper functioning of the application it is recommended the next prerequ
 
 ## Usage
 
-First run the server application, then the Runner inside the run package of the client application
+First run the server application, then the Runner inside the run package of the server application
 
 ## Built Using
 
