@@ -12,9 +12,10 @@ import com.google.gson.Gson;
 import co.edu.uptc.model.business.User;
 
 /**
+ * 
+ * JsonUserTreeWriter class
+ * 
  * @author Daniel Torres
- * @Date 23/11/2022
- * @Description JsonUserTreeWriter Class
  */
 
 public class JsonUserTreeWriter {

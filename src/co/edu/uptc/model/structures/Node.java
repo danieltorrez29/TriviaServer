@@ -2,25 +2,43 @@ package co.edu.uptc.model.structures;
 
 /**
  * 
+ * Node class
+ * 
  * @author Daniel Torres
- * @Date 20/10/2022
- * @Description Node Class
  * @param <T>
  */
 
 public class Node<T> {
 
 	/**
-	 * Attribute declaration
+	 * Generic value
 	 */
 
 	protected T value;
+
+	/**
+	 * Height
+	 */
+
 	protected int height;
+
+	/**
+	 * Left node
+	 */
+
 	protected Node<T> left;
+
+	/**
+	 * Right node
+	 */
+
 	protected Node<T> right;
 
 	/**
+	 * 
 	 * Constructor method
+	 * 
+	 * @param value
 	 */
 
 	public Node(T value) {

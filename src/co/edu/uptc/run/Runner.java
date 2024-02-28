@@ -3,9 +3,10 @@ package co.edu.uptc.run;
 import co.edu.uptc.present.ServerPresenter;
 
 /**
+ * 
+ * Runner class
+ * 
  * @author Daniel Torres
- * @Date 27/11/2022
- * @Description Runner Class
  */
 
 public class Runner {

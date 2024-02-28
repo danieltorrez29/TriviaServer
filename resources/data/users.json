@@ -7,11 +7,12 @@
 		"stats": {
 			"level": "Fácil",
 			"categorie": "Ciencia",
-			"correct": 3,
-			"incorrect": 2,
-			"score": 30,
-			"accuracy": 0.0,
-			"time": 0
+			"correct": 1,
+			"incorrect": 5,
+			"score": 94,
+			"accuracy": 16.666666666666664,
+			"time": 6,
+			"gamesPlayed": 3
 		}
 	},
 	{
@@ -26,7 +27,8 @@
 			"incorrect": 3,
 			"score": 20,
 			"accuracy": 0.0,
-			"time": 0
+			"time": 0,
+			"gamesPlayed": 1
 		}
 	},
 	{
@@ -41,7 +43,8 @@
 			"incorrect": 4,
 			"score": 10,
 			"accuracy": 33.0,
-			"time": 6
+			"time": 6,
+			"gamesPlayed": 5
 		}
 	},
 	{
@@ -56,7 +59,8 @@
 			"incorrect": 0,
 			"score": 50,
 			"accuracy": 100.0,
-			"time": 26
+			"time": 26,
+			"gamesPlayed": 4
 		}
 	},
 	{
@@ -67,11 +71,12 @@
 		"stats": {
 			"level": "Avanzado",
 			"categorie": "Cultura",
-			"correct": 4,
-			"incorrect": 2,
-			"score": 362,
-			"accuracy": 66.66666666666666,
-			"time": 38
+			"correct": 2,
+			"incorrect": 4,
+			"score": 190,
+			"accuracy": 33.33333333333333,
+			"time": 10,
+			"gamesPlayed": 5
 		}
 	}
 ]

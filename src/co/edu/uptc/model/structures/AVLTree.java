@@ -4,18 +4,25 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 /**
+ * 
+ * AVLTree class
+ * 
  * @author Daniel Torres
- * @Date 20/10/2022
- * @Description AVLTree Class
+ * @param <T>
  */
 
 public class AVLTree<T> {
 
 	/**
-	 * Attribute declaration
+	 * Root
 	 */
 
 	private Node<T> root;
+
+	/**
+	 * Comparator
+	 */
+
 	private Comparator<T> comparator;
 
 	/**
@@ -184,6 +191,14 @@ public class AVLTree<T> {
 		/* return the (unchanged) node pointer */
 		return node;
 	}
+
+	/**
+	 * 
+	 * minValueNode Node<T> method
+	 * 
+	 * @param node
+	 * @return Node<T>
+	 */
 
 	private Node<T> minValueNode(Node<T> node) {
 		Node<T> current = node;

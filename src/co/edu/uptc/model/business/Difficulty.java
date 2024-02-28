@@ -3,18 +3,24 @@ package co.edu.uptc.model.business;
 import co.edu.uptc.model.structures.AVLTree;
 
 /**
+ * 
+ * Difficulty class
+ * 
  * @author Daniel Torres
- * @Date 23/11/2022
- * @Description Difficulty Class
  */
 
 public class Difficulty {
 
 	/**
-	 * Attribute declaration
+	 * Level
 	 */
 
 	private int level;
+
+	/**
+	 * Categorie tree
+	 */
+
 	private AVLTree<Categorie> categories;
 
 	/**

@@ -7,23 +7,36 @@ import java.net.Socket;
 
 /**
  * 
+ * Connection class
+ * 
  * @author Daniel Torres
- * @Date 27/11/2022
- * @Description Connection Class
  */
 
 public class Connection {
 
 	/**
-	 * Attribute declaration
+	 * Client socket
 	 */
 
 	private Socket client;
+
+	/**
+	 * Input data stream
+	 */
+
 	private DataInputStream input;
+
+	/**
+	 * Output data stream
+	 */
+
 	private DataOutputStream output;
 
 	/**
+	 * 
 	 * Constructor method
+	 * 
+	 * @param socket
 	 */
 
 	public Connection(Socket socket) {
@@ -81,7 +94,8 @@ public class Connection {
 
 	/**
 	 * 
-	 * inputStreamAvailable int method that determines channel's bytes amount available to read
+	 * inputStreamAvailable int method that determines channel's bytes amount
+	 * available to read
 	 * 
 	 * @return int
 	 */

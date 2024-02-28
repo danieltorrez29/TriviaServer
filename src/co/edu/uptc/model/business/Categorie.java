@@ -3,18 +3,24 @@ package co.edu.uptc.model.business;
 import co.edu.uptc.model.structures.AVLTree;
 
 /**
+ * 
+ * Categorie class
+ * 
  * @author Daniel Torres
- * @Date 23/11/2022
- * @Description Categorie Class
  */
 
 public class Categorie {
 
 	/**
-	 * Attribute declaration
+	 * Name
 	 */
 
 	private String name;
+
+	/**
+	 * Question tree
+	 */
+
 	private AVLTree<Question> questions;
 
 	/**

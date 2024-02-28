@@ -5,32 +5,65 @@ import java.util.ArrayList;
 import co.edu.uptc.model.business.User;
 
 /**
+ * 
+ * Request class
+ * 
  * @author Daniel Torres
- * @Date 27/11/2022
- * @Description Request Class
  */
 
 public class Request {
 
 	/**
-	 * Attribute declaration
+	 * Questions
 	 */
 
 	private String questions;
+
+	/**
+	 * Flag
+	 */
+
 	private boolean flag;
+
+	/**
+	 * Action command
+	 */
+
 	private String actionCommand;
+
+	/**
+	 * Email
+	 */
+
 	private String email;
+
+	/**
+	 * Username
+	 */
+
 	private String username;
+
+	/**
+	 * Password
+	 */
+
 	private String password;
+
+	/**
+	 * Logged in user
+	 */
+
 	private User loggedInUser;
+
+	/**
+	 * User list
+	 */
+
 	private ArrayList<User> topFiveUsers;
 
 	/**
 	 * 
 	 * Constructor method
-	 * 
-	 * @param serverSideGame
-	 * @param clientSideGame
 	 */
 
 	public Request() {

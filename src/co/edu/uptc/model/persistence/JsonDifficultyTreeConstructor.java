@@ -16,9 +16,10 @@ import co.edu.uptc.model.business.Question;
 import co.edu.uptc.model.structures.AVLTree;
 
 /**
+ * 
+ * JsonDifficultyTreeConstructor class
+ * 
  * @author Daniel Torres
- * @Date 23/11/2022
- * @Description JsonDifficultyTreeConstructor Class
  */
 
 public class JsonDifficultyTreeConstructor {

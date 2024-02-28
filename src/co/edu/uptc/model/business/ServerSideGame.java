@@ -9,18 +9,24 @@ import co.edu.uptc.model.persistence.JsonUserTreeWriter;
 import co.edu.uptc.model.structures.AVLTree;
 
 /**
+ * 
+ * ServerSideGame class
+ * 
  * @author Daniel Torres
- * @Date 23/11/2022
- * @Description ServerSideGame Class
  */
 
 public class ServerSideGame {
 
 	/**
-	 * Attribute declaration
+	 * Difficulty tree
 	 */
 
 	private AVLTree<Difficulty> questions;
+
+	/**
+	 * User tree
+	 */
+
 	private AVLTree<User> users;
 
 	/**
@@ -60,7 +66,7 @@ public class ServerSideGame {
 	 * searchUser User method
 	 * 
 	 * @param username
-	 * @return
+	 * @return User
 	 */
 
 	private User searchUser(String username) {

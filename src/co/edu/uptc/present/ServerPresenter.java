@@ -9,18 +9,24 @@ import java.util.Properties;
 import co.edu.uptc.model.business.ServerSideGame;
 
 /**
+ * 
+ * ServerPresenter class
+ * 
  * @author Daniel Torres
- * @Date 27/11/2022
- * @Description ServerPresenter Class
  */
 
 public class ServerPresenter {
 
 	/**
-	 * Attribute declaration
+	 * ServerSocket
 	 */
 
 	private ServerSocket serverSocket;
+
+	/**
+	 * ServerSideGame
+	 */
+
 	private ServerSideGame serverSideGame;
 
 	/**

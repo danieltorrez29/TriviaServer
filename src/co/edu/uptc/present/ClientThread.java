@@ -9,23 +9,38 @@ import co.edu.uptc.net.Connection;
 import co.edu.uptc.net.Request;
 
 /**
+ * 
+ * ClientThread class
+ * 
  * @author Daniel Torres
- * @Date 27/11/2022
- * @Description ClientThread Class
  */
 
 public class ClientThread extends Thread {
 
 	/**
-	 * Attribute declaration
+	 * Connection
 	 */
 
 	private Connection connection;
+
+	/**
+	 * ServerSideGame
+	 */
+
 	private ServerSideGame serverSideGame;
+
+	/**
+	 * Running protocol flag
+	 */
+
 	private boolean runningProtocol;
 
 	/**
+	 * 
 	 * Constructor method
+	 * 
+	 * @param clientSocket
+	 * @param serverSideGame
 	 */
 
 	public ClientThread(Socket clientSocket, ServerSideGame serverSideGame) {
@@ -36,7 +51,7 @@ public class ClientThread extends Thread {
 
 	/**
 	 * 
-	 * protocol void method that is responsible for responding to customer requests
+	 * protocol void method that is responsible for responding to client requests
 	 * and sending responses
 	 */
 
@@ -49,7 +64,7 @@ public class ClientThread extends Thread {
 				if (connection.inputStreamAvailable() > 0) {
 					request = JsonRequestConstructor.createRequestObject(connection.readUTF());
 					switch (request.getActionCommand()) {
-					case "Ingresar":
+					case "Sign In":
 						if (this.serverSideGame.isUserRegistered(request.getUsername(), request.getPassword())) {
 							request.setFlag(true);
 							request.setLoggedInUser(serverSideGame.getUser(request.getUsername()));
@@ -59,7 +74,7 @@ public class ClientThread extends Thread {
 						connection.writeUTF(JsonRequestConstructor.createJsonRequestString(request));
 						break;
 
-					case "Registrarse - Usuario":
+					case "Sign In - User":
 						if (request.isFlag()) {
 							serverSideGame.addUser(request.getEmail(), request.getUsername(), request.getPassword());
 						} else {
@@ -68,11 +83,11 @@ public class ClientThread extends Thread {
 						}
 						break;
 
-					case "Siguiente":
+					case "Next":
 						serverSideGame.updateUserStats(request.getLoggedInUser());
 						break;
 
-					case "Podio":
+					case "Podium":
 						request.setTopFiveUsers(serverSideGame.getTopFive());
 						connection.writeUTF(JsonRequestConstructor.createJsonRequestString(request));
 						break;

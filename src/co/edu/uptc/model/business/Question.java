@@ -3,18 +3,24 @@ package co.edu.uptc.model.business;
 import co.edu.uptc.model.structures.AVLTree;
 
 /**
+ * 
+ * Question class
+ * 
  * @author Daniel Torres
- * @Date 23/11/2022
- * @Description Question Class
  */
 
 public class Question {
 
 	/**
-	 * Attribute declaration
+	 * Statement
 	 */
 
 	private String statement;
+
+	/**
+	 * Answer tree
+	 */
+
 	private AVLTree<Answer> answers;
 
 	/**

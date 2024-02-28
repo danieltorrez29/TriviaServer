@@ -14,9 +14,10 @@ import co.edu.uptc.model.business.User;
 import co.edu.uptc.model.structures.AVLTree;
 
 /**
+ * 
+ * JsonUserTreeConstructor class
+ * 
  * @author Daniel Torres
- * @Date 23/11/2022
- * @Description JsonUserTreeConstructor Class
  */
 
 public class JsonUserTreeConstructor {
@@ -42,6 +43,7 @@ public class JsonUserTreeConstructor {
 		int score = 0;
 		double accuracy = 0;
 		int time = 0;
+		int gamesPlayed = 0;
 		try {
 			jsonString = Files.readString(Path.of("resources/data/users.json"), StandardCharsets.UTF_8);
 		} catch (Exception e) {
@@ -65,9 +67,10 @@ public class JsonUserTreeConstructor {
 			score = statsObject.get("score").getAsInt();
 			accuracy = statsObject.get("accuracy").getAsDouble();
 			time = statsObject.get("time").getAsInt();
+			gamesPlayed = statsObject.get("gamesPlayed").getAsInt();
 
 			userTree.insert(new User(email, username, password, profilePicPath,
-					new Stats(level, categorie, correct, incorrect, score, accuracy, time)));
+					new Stats(level, categorie, correct, incorrect, score, accuracy, time, gamesPlayed)));
 		}
 		return userTree;
 	}

@@ -7,9 +7,9 @@ import java.util.Random;
 
 /**
  * 
+ * ProfilePicPath enum
+ * 
  * @author Daniel Torres
- * @Date 23/11/2022
- * @Description ProfilePicPath Class
  */
 
 public enum ProfilePicPath {
@@ -23,16 +23,26 @@ public enum ProfilePicPath {
 	LION("resources/images/lion.png"), SNAKE("resources/images/snake.png"), TOUCAN("resources/images/toucan.png");
 
 	/**
-	 * Constants
+	 * Profile path values constant list
 	 */
 
 	private static final List<ProfilePicPath> PROFILE_PATH_VALUES = Collections
 			.unmodifiableList(Arrays.asList(values()));
+
+	/**
+	 * List size constant
+	 */
+
 	private static final int SIZE = PROFILE_PATH_VALUES.size();
+
+	/**
+	 * Random object constant
+	 */
+
 	private static final Random RANDOM = new Random();
 
 	/**
-	 * Attribute declaration
+	 * Path
 	 */
 
 	private String path;
