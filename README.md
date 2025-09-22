@@ -67,13 +67,13 @@ Per-client thread loop:
 
 ### Action Commands
 
-| Command | Direction | Description | Reply |
-|---------|-----------|-------------|-------|
-| `Sign In` | C -> S | Authenticate (username + password). | Returns `flag` + `loggedInUser` if success. |
-| `Sign In - User` | C -> S | Legacy two-step sign-in / register flow. | Reply only during existence check. |
-| `Create Account - User` | C -> S | Two-phase registration (check then create). | Reply only phase 1 (username availability). |
-| `Next` | C -> S | Client finished a question; update stats. | None (extend to push next). |
-| `Podium` | C -> S | Fetch top 5 users. | Includes `topFiveUsers`. |
+| Command | Description | Reply |
+|---------|-------------|-------|
+| `Sign In` | Authenticate (username + password). | Returns `flag` + `loggedInUser` if success. |
+| `Sign In - User` | Legacy two-step sign-in / register flow. | Reply only during existence check. |
+| `Create Account - User` | Two-phase registration (check then create). | Reply only phase 1 (username availability). |
+| `Next` | Client finished a question; update stats. | None (extend to push next). |
+| `Podium` | Fetch top 5 users. | Includes `topFiveUsers`. |
 
 ### Request Object (Fields)
 
@@ -89,8 +89,6 @@ Per-client thread loop:
     "topFiveUsers": []
 }
 ```
-
-Unused fields are empty strings or null server-side.
 
 ## Data Model & Structures
 
