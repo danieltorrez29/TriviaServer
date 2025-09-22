@@ -43,6 +43,7 @@ Design goal: educational clarity over framework abstraction.
 
 ## UML Class Model
 
+[![UML Class Diagram](./resources/images/diagrams/trivia_server_class_diagram.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaServer/refs/heads/master/resources/images/diagrams/trivia_server_class_diagram.png)
 
 ## Core Packages
 
