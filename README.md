@@ -17,7 +17,7 @@ For the proper functioning of the application it is recommended the next prerequ
 
 ### Prerequisites
 
-- Java SE 17 or higher.
+- Java SE 17 or older.
 - Set the scale of the screen resolution to 100%.
 
 ## Usage
