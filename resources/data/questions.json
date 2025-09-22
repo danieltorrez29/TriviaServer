@@ -1,35 +1,35 @@
 [
 	{
-		"categorie": "Cultura",
+		"categorie": "Culture",
 		"level": 1,
 		"questions": [
 			{
-				"statement": "¿De qué murió el compositor Mavella?",
+				"statement": "What did composer Mavella die of?",
 				"answers": [
 					{
-						"statement": "De un ataque al corazón",
+						"statement": "A heart attack",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "De tuberculosis",
+						"statement": "Tuberculosis",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "De insuficiencia renal aguda",
+						"statement": "Acute renal failure",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "De un cáncer estomacal",
+						"statement": "Stomach cancer",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					}
 				]
 			},
 			{
-				"statement": "¿Qué famosa estrella musical mavella fue conocida como Baby Frances Gumm en la fase inicial de su carrera?",
+				"statement": "What famous musical star was known as Baby Frances Gumm in the early stages of her career?",
 				"answers": [
 					{
 						"statement": "Ginger Rogers",
@@ -54,7 +54,7 @@
 				]
 			},
 			{
-				"statement": "¿Cuál de estos personajes jamás apareció en la revista Time como: Hombre del Año?",
+				"statement": "Which of these characters never appeared in Time magazine as: Man of the Year?",
 				"answers": [
 					{
 						"statement": "Adolf Hitler",
@@ -79,32 +79,32 @@
 				]
 			},
 			{
-				"statement": "¿Cuántos litros de sangre tiene una persona adulta?",
+				"statement": "How many liters of blood does an adult have?",
 				"answers": [
 					{
-						"statement": "Tiene entre 2 y 4 litros",
+						"statement": "Between 2 and 4 liters",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Tiene entre 4 y 6 litros",
+						"statement": "Between 4 and 6 liters",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Tiene 10 litros",
+						"statement": "10 liters",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Tiene 7 litros",
+						"statement": "7 liters",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					}
 				]
 			},
 			{
-				"statement": "¿Quién es el autor de la frase \"Pienso, luego existo\"?",
+				"statement": "Who is the author of the phrase \"I think, therefore I am\"?",
 				"answers": [
 					{
 						"statement": "Platón",
@@ -129,35 +129,35 @@
 				]
 			},
 			{
-				"statement": "¿Cuál es el país más grande y el más pequeño del mundo?",
+				"statement": "What is the largest and smallest country in the world?",
 				"answers": [
 					{
-						"statement": "Rusia y Vaticano",
+						"statement": "Russia and Vatican City",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "China y Nauru",
+						"statement": "China and Nauru",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Canadá y Mónaco",
+						"statement": "Canada and Monaco",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Estados Unidos y Malta",
+						"statement": "United States and Malta",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					}
 				]
 			},
 			{
-				"statement": "¿Cuál es el libro más vendido en el mundo después de la Biblia?",
+				"statement": "What is the best-selling book in the world after the Bible?",
 				"answers": [
 					{
-						"statement": "El Señor de los Anillos",
+						"statement": "The Lord of the Rings",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
@@ -179,7 +179,7 @@
 				]
 			},
 			{
-				"statement": "¿Quién pintó la obra \"Guernica\"?",
+				"statement": "Who painted the work \"Guernica\"?",
 				"answers": [
 					{
 						"statement": "Paul Cézanne",
@@ -204,32 +204,32 @@
 				]
 			},
 			{
-				"statement": "¿En qué periodo de la prehistoria fue descubierto el fuego?",
+				"statement": "In which prehistoric period was fire discovered?",
 				"answers": [
 					{
-						"statement": "Paleolítico",
+						"statement": "Paleolithic",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Edad de los metales",
+						"statement": "Metal Age",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Edad de piedra",
+						"statement": "Stone Age",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Edad media",
+						"statement": "Middle Ages",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					}
 				]
 			},
 			{
-				"statement": "¿Qué hora es en inglés \"It is a quarter past six\"?",
+				"statement": "What time is it in English \"It is a quarter past six\"?",
 				"answers": [
 					{
 						"statement": "6:15",
@@ -256,36 +256,36 @@
 		]
 	},
 	{
-		"categorie": "Ciencia",
+		"categorie": "Science",
 		"level": 0,
 		"questions": [
 			{
-				"statement": "La gente que tiene una reacción física importante hacia el arte hermoso, ¿qué tipo de síndrome sufre?",
+				"statement": "People who have a significant physical reaction to beautiful art, what kind of syndrome do they suffer from?",
 				"answers": [
 					{
-						"statement": "Síndrome de Proust",
+						"statement": "Proust Syndrome",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Síndrome de Jerusalén",
+						"statement": "Jerusalem Syndrome",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Síndrome de Stendhal",
+						"statement": "Stendhal syndrome",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Síndrome de Beckett",
+						"statement": "Beckett syndrome",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					}
 				]
 			},
 			{
-				"statement": "¿Cuál de los siguientes científicos tiene un elemento químico llamado como él?",
+				"statement": "Which of the following scientists has a chemical element named after him?",
 				"answers": [
 					{
 						"statement": "Albert Einstein",
@@ -310,32 +310,32 @@
 				]
 			},
 			{
-				"statement": "En la tabla periódica de los elementos, hay cuatro elementos diferentes cuyos nombres se basan en...",
+				"statement": "In the periodic table of elements, there are four different elements whose names are based on...",
 				"answers": [
 					{
-						"statement": "En el gato mascota de Antoine Lavoisier",
+						"statement": "The pet cat of Antoine Lavoisier",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "En la luna de Neptuno",
+						"statement": "The moon of Neptune",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "En el nombre de soltera de Marie Curie",
+						"statement": "The maiden name of Marie Curie",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "En una aldea minera sueca",
+						"statement": "In a Swedish mining village",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					}
 				]
 			},
 			{
-				"statement": "¿Quién descubrió la vacuna contra la rabia y el proceso de pasteurización?",
+				"statement": "Who discovered the rabies vaccine and the pasteurization process?",
 				"answers": [
 					{
 						"statement": "Charles Darwin",
@@ -360,150 +360,150 @@
 				]
 			},
 			{
-				"statement": "¿Cuál es el tipo sanguíneo considerado como \"donante universal\"?",
+				"statement": "What blood type is considered the \"universal donor\"?",
 				"answers": [
 					{
-						"statement": "Tipo A",
+						"statement": "Type A",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Tipo B",
+						"statement": "Type B",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Tipo O",
+						"statement": "Type O",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Tipo AB",
+						"statement": "Type AB",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					}
 				]
 			},
 			{
-				"statement": "¿Cuál es el cromosoma que determina el sexo masculino?",
+				"statement": "What chromosome determines the male sex?",
 				"answers": [
 					{
-						"statement": "El cromosoma V",
+						"statement": "Chromosome V",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "El cromosoma X",
+						"statement": "Chromosome X",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "El cromosoma Y",
+						"statement": "Chromosome Y",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "El cromosoma Z",
+						"statement": "Chromosome Z",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					}
 				]
 			},
 			{
-				"statement": "¿Cómo se llaman los vasos que transportan la sangre desde el corazón al resto del cuerpo?",
+				"statement": "What are the vessels called that transport blood from the heart to the rest of the body?",
 				"answers": [
 					{
-						"statement": "Arterias",
+						"statement": "Arteries",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Venas",
+						"statement": "Veins",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Articulaciones",
+						"statement": "Articulations",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Uréteres",
+						"statement": "Ureters",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					}
 				]
 			},
 			{
-				"statement": "¿Cuál es el metal cuyo símbolo químico es Au?",
+				"statement": "What metal has the chemical symbol Au?",
 				"answers": [
 					{
-						"statement": "Arsénico",
+						"statement": "Arsenic",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Antimonio",
+						"statement": "Antimony",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Actinio",
+						"statement": "Actinium",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Oro",
+						"statement": "Gold",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					}
 				]
 			},
 			{
-				"statement": "¿Dónde se encuentra el gran colisionador de hadrones?",
+				"statement": "Where is the Large Hadron Collider located?",
 				"answers": [
 					{
-						"statement": "Entre Portugal y España",
+						"statement": "Between Portugal and Spain",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Entre España y Francia",
+						"statement": "Between Spain and France",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Entre Francia y Suiza",
+						"statement": "Between France and Switzerland",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Entre Italia y Alemania",
+						"statement": "Between Italy and Germany",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					}
 				]
 			},
 			{
-				"statement": "El Sol está compuesto principalmente por:",
+				"statement": "The Sun is mainly composed of:",
 				"answers": [
 					{
-						"statement": "Luz y energía",
+						"statement": "Light and energy",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Hidrógeno y helio",
+						"statement": "Hydrogen and helium",
 						"flagIsCorrect": true,
 						"flagFiftyFifty": true
 					},
 					{
-						"statement": "Hierro y níquel",
+						"statement": "Iron and nickel",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": false
 					},
 					{
-						"statement": "Fotones y neutrones",
+						"statement": "Photons and neutrons",
 						"flagIsCorrect": false,
 						"flagFiftyFifty": true
 					}

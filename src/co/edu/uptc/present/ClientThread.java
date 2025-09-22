@@ -1,12 +1,11 @@
 package co.edu.uptc.present;
 
-import java.net.Socket;
-
 import co.edu.uptc.model.business.ServerSideGame;
 import co.edu.uptc.model.persistence.JsonDifficultyTreeConstructor;
 import co.edu.uptc.model.persistence.JsonRequestConstructor;
 import co.edu.uptc.net.Connection;
 import co.edu.uptc.net.Request;
+import java.net.Socket;
 
 /**
  * 
@@ -75,6 +74,18 @@ public class ClientThread extends Thread {
 						break;
 
 					case "Sign In - User":
+						if (request.isFlag()) {
+							serverSideGame.addUser(request.getEmail(), request.getUsername(), request.getPassword());
+						} else {
+							request.setFlag(serverSideGame.isUserExist(request.getUsername()));
+							connection.writeUTF(JsonRequestConstructor.createJsonRequestString(request));
+						}
+						break;
+
+					case "Create Account - User":
+						// Account creation flow requested by the client.
+						// First request: flag = false -> the server responds with flag = true if the user exists.
+						// Second request: flag = true and email/username/password are sent -> the server registers the user.	
 						if (request.isFlag()) {
 							serverSideGame.addUser(request.getEmail(), request.getUsername(), request.getPassword());
 						} else {
