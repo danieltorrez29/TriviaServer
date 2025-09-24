@@ -1,7 +1,6 @@
 <h1 align="center">TriviaServer</h1>
 <p align="center">
-Server-side engine for a multiplayer Trivia Game: user authentication, question delivery, scoring, podium statistics and state persistence over a simple UTF JSON socket protocol.<br><br>
-Stack: Java 17 · Gson · Raw TCP Sockets · AVL Trees
+Server-side engine for a multiplayer Trivia Game: user authentication, question delivery, scoring, podium statistics and state persistence over a simple UTF JSON socket protocol.
 </p>
 
 ---
@@ -9,6 +8,7 @@ Stack: Java 17 · Gson · Raw TCP Sockets · AVL Trees
 <h2 align="left">Index</h2>
 
 - [Overview](#overview)
+- [Tech Stack](#tech-stack)
 - [UML Class Model](#uml-class-model)
 - [Core Packages](#core-packages)
 - [Request / Response Protocol](#request--response-protocol)
@@ -23,10 +23,7 @@ Stack: Java 17 · Gson · Raw TCP Sockets · AVL Trees
   - [Compile](#compile)
   - [Run](#run)
   - [Client Requirements](#client-requirements)
-- [Error Handling \& Robustness](#error-handling--robustness)
-- [Security Considerations](#security-considerations)
 - [Extensibility Ideas](#extensibility-ideas)
-- [Development Guidelines](#development-guidelines)
 - [Credits and Author](#credits-and-author)
 - [License](#license)
 
@@ -40,6 +37,13 @@ Stack: Java 17 · Gson · Raw TCP Sockets · AVL Trees
 4. Authenticates / registers users, serves random questions, updates statistics and produces a live podium (top five users by score).
 
 Design goal: educational clarity over framework abstraction.
+
+## Tech Stack
+
+- Java 17.
+- Gson.
+- Raw TCP Sockets.
+- AVL Trees.
 
 ## UML Class Model
 
@@ -140,26 +144,6 @@ On UNIX-like systems replace `;` with `:` in the classpath.
 
 Use UTF framing (`writeUTF` length prefix) and JSON shaped like the Request object above.
 
-## Error Handling & Robustness
-
-Current: broad exception catches, minimal feedback.
-
-Improvements:
-- Structured logging
-- Explicit error responses
-- Graceful shutdown & periodic persistence
-- Input validation and timeouts
-
-## Security Considerations
-
-| Aspect | Current | Recommendation |
-|--------|---------|----------------|
-| Passwords | Plain text JSON | Hash + salt (bcrypt/Argon2) |
-| Transport | Plain TCP | TLS (`SSLSocket`) |
-| Auth State | Re-sent user object | Session token / minimal claims |
-| Validation | Minimal | Enforce length & pattern checks |
-| Rate Limit | None | Per-IP connection & auth throttling |
-
 ## Extensibility Ideas
 
 - Push next question after `Next`
@@ -168,13 +152,6 @@ Improvements:
 - Persistent write-back or DB integration
 - Docker image + CI pipeline
 - Leaderboard pagination & filters
-
-## Development Guidelines
-
-1. Keep network DTOs isolated in `co.edu.uptc.net`.
-2. Avoid business logic leakage into thread layer.
-3. Prefer pure functions for scoring where possible.
-4. Maintain consistent JSON schema evolution (version field if extended).
 
 ## Credits and Author
 Author: [@danieltorrez29](https://github.com/danieltorrez29) – Systems and Computer Engineer - Database Specialist.
