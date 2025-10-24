@@ -1,6 +1,6 @@
 <h1 align="center">TriviaServer</h1>
 <p align="center">
-Server-side engine for a multiplayer Trivia Game: user authentications, question delivery, scoring, podium statistics and state persistence over a simple UTF JSON socket protocol.
+Server-side engine for a multiplayer Trivia Game: user authentication, question delivery, scoring, podium statistics and state persistence over a simple UTF JSON socket protocol.
 </p>
 
 ---
